@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="HelloWorld" default="hello" basedir="../">
+ <!-- Load project settings from external file -->
+ <property file="build/config/project.properties" />
+
+ <!-- Default empty target -->
+ <target name="hello" description="Displays basic project information">
+  <echo message="Hello, welcome to ${phing.project.name}!" />
+  <echo message="Current environment is: ${project.env}" />
+ </target>
+</project>
