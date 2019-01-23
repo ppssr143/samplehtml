@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<phpunit codecoverage="true" haltonfailure="true" haltonerror="true">
+  <formatter type="clover" usefile="false"/>
+  <batchtest>
+    <fileset dir="tests">
+      <include name="**/*sample*.php"/>
+    </fileset>
+  </batchtest>
+</phpunit>
