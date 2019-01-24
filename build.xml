@@ -13,17 +13,6 @@
     <!-- ============================================  -->
     <!-- Target: build                                 -->
     <!-- ============================================  -->
-    <target name="build" depends="prepare">
-        <echo msg="Copying files to build directory..." />
-
-        <echo msg="Copying ./about.php to ./build directory..." />
-
-        <echo msg="Copying ./browsers.php to ./build directory..." />
-        <copy file="./browsers.php" tofile="./build/browsers.php" />
-
-        <echo msg="Copying ./contact.php to ./build directory..." />
-        <copy file="./contact.php" tofile="./build/contact.php" />
-    </target>
 
     <!-- ============================================  -->
     <!-- (DEFAULT)  Target: dist                       -->
