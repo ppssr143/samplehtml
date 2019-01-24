@@ -17,7 +17,6 @@
         <echo msg="Copying files to build directory..." />
 
         <echo msg="Copying ./about.php to ./build directory..." />
-    #    <copy file="./about.php" tofile="./build/about.php" />
 
         <echo msg="Copying ./browsers.php to ./build directory..." />
         <copy file="./browsers.php" tofile="./build/browsers.php" />
